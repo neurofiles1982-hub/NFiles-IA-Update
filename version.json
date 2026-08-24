@@ -1,0 +1,21 @@
+{
+    "version": "8.0.2",
+    "source_url": "https://raw.githubusercontent.com/neurofiles1982-hub/NFiles-IA-Update/main/version.json",
+    "release_page": "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/tag/v8.0.2",
+    "download_url": "",
+    "sha256": "",
+    "installer_url": "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/download/v8.0.2/NFilesIA_Setup_v8.0.2.exe",
+    "installer_sha256": "1538a13fe023d4d1a3b441a31533a0da3a167209c43872fa4d018fb7abf39670",
+    "bootstrap_url": "",
+    "release_notes": [
+        "Beta publico com instalador oficial verificado por SHA-256.",
+        "Fluxo de atualizacao baseado em manifesto assinado.",
+        "Modelos e runtimes opcionais permanecem separados do instalador principal."
+    ],
+    "manifest_signature": {
+        "schema": 1,
+        "algorithm": "RSA-PSS-SHA256",
+        "key": "update_public.pem",
+        "signature": "VypkKY-Ib_Y1Wj84UWkc6Xk68mDxy_3SGpDFG1A_Z6_EvAOhQGhbJaWiJEX0SIS1vmfKL02lRyEwZcnTa99fT0qmDXopa_2SffKIc-K4MFo1xVFfoyYM0KIGGZ05dF9uaxbCNpgKrxMiRztUja14_bOYdCOtfzdrG4VkV4-D5QZYshKVN-i99iDBvAiuABnU9q2wBFjJignGfECizcuzZFmDLH4_ThqwYWf9ExLI1wBXW_iVCGjV4UYnNcIxx_1gX_1P0hKFDuW1iKOgCNN9lc3-6Frr7Ktxo7yXCvQNHxHzMQfv3YHx-wnzdqu5YNzJJGszVhJC0dCHucFqZ9hL5504qoUjnXoBDO0mcVHhUx6G5fV_Xu8fvfNcNaBhGMn9AX_5vP0oMjvv1olWWGoxwstnI_eNeUHm5icqMpL2kiHi88CEmWWtUobgztQfXI8qGsZHk70VuRfpzkJT-rW_TZcLP3rzaucxzxgTUeZvZuGOVUeglf_6qDe7oBph__L5bq8e5otmbGoX-yqdPOAbWo3e51H_YGRS6cAVF0BK2VNrHkktIzWFg6x535E_ZoG0My8znMHAnRBpCR-CWiZGlD0VU-8upYKjPpT6ZjEh88HEj4ipTTHUHEWdEWY5Jhk4mfnQ30PJGYNG8HNKvhEw-1w7Pc7Q1yIoSQRETPeCls8"
+    }
+}
