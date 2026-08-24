@@ -1,0 +1,33 @@
+name: Sugerir uma melhoria
+description: Proponha uma funcionalidade ou melhoria de experiência.
+title: "[Sugestão]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Qual problema esta sugestão resolve?
+      description: Explique a necessidade antes de descrever a solução.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Como você imagina a solução?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área relacionada
+      options:
+        - Inteligência e chat
+        - Arquivos e organização
+        - Limpeza e desempenho
+        - Segurança
+        - Documentos
+        - Interface e acessibilidade
+        - Instalação e atualização
+        - Outra
+    validations:
+      required: true
