@@ -6,16 +6,16 @@
 </p>
 
 <p align="center">
-  <img alt="Versão 8.0.2" src="https://img.shields.io/badge/versão-8.0.2-5865f2">
-  <img alt="Beta público" src="https://img.shields.io/badge/status-beta%20público-f59e0b">
+  <img alt="Versão 8.0.4" src="https://img.shields.io/badge/versão-8.0.4-5865f2">
+  <img alt="Release oficial estável" src="https://img.shields.io/badge/status-release%20estável-238636">
   <img alt="Windows 10 e 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4">
   <a href="../../issues"><img alt="Issues abertas" src="https://img.shields.io/badge/Issues-abertas%20ao%20público-238636"></a>
 </p>
 
-> Este é o canal público oficial de atualizações, downloads, documentação e suporte do NFiles IA. O código-fonte principal permanece privado durante o Beta.
+> Este é o canal público oficial de atualizações, downloads, documentação e suporte do NFiles IA. O código-fonte principal permanece privado durante o desenvolvimento.
 
 <p align="center">
-  <a href="https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/tag/v8.0.2"><strong>⬇ Baixar a versão Beta</strong></a>
+  <a href="https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/latest"><strong>⬇ Baixar o release oficial</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/neurofiles1982-hub/NFiles-IA-Update/issues/new/choose"><strong>Enviar feedback</strong></a>
 </p>
@@ -75,7 +75,7 @@ Guias, materiais visuais e conteúdos do ecossistema ficam disponíveis sem mist
 
 As versões oficiais são publicadas em [Releases](../../releases). Cada pacote deve acompanhar hash SHA-256 e notas da versão.
 
-> Ainda não há uma versão estável. Durante o Beta, não baixe instaladores enviados por terceiros e nunca compartilhe tokens do Colab em Issues.
+> A versão 8.0.4 é o release oficial estável atual. Não baixe instaladores enviados por terceiros e nunca compartilhe tokens do Colab em Issues.
 
 ## Suporte público
 
