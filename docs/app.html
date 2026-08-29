@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portal do NFiles IA com autenticação, perfil, workspace, planos e onboarding."
+    />
+    <title>Portal | NFiles IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="theme-premium theme-portal">
+    <a class="skip-link" href="#main-content">Ir para o conteúdo</a>
+    <div class="portal-layout">
+      <aside class="portal-sidebar">
+        <a class="brand brand-portal" href="index.html" aria-label="NFiles IA">
+          <span class="brand-mark">NF</span>
+          <span class="brand-copy">
+            <strong>NFiles IA</strong>
+            <small>Portal workspace</small>
+          </span>
+        </a>
+
+        <div class="portal-sidebar-block">
+          <span class="sidebar-label">Estado da conta</span>
+          <strong id="authStatusTitle">Conecte seu email</strong>
+          <p id="authStatusText">
+            Entre com email link para ativar o perfil SaaS e carregar seu workspace.
+          </p>
+          <span id="authStateBadge" class="status-chip">Aguardando login</span>
+        </div>
+
+        <nav class="portal-nav" aria-label="Navegacao do portal">
+          <a href="#overview">Overview</a>
+          <a href="#workspace">Workspace</a>
+          <a href="#onboarding">Onboarding</a>
+          <a href="#billing">Billing</a>
+          <a href="#security">Seguranca</a>
+        </nav>
+
+        <div class="portal-sidebar-block">
+          <span class="sidebar-label">Acoes rapidas</span>
+          <div class="stack-actions">
+            <a class="btn btn-secondary" href="download.html">Canal de download</a>
+            <a class="btn btn-ghost js-buy" href="https://wa.me/5515998516105">Comprar pelo WhatsApp</a>
+          </div>
+        </div>
+      </aside>
+
+      <main id="main-content" class="portal-main">
+        <header class="portal-header">
+          <div>
+            <span class="section-kicker">Portal SaaS</span>
+            <h1>Workspace, identidade e evolucao comercial num so lugar.</h1>
+          </div>
+          <div class="portal-header-actions">
+            <button id="signOutButton" class="btn btn-ghost" type="button" hidden>Sair</button>
+          </div>
+        </header>
+
+        <section id="overview" class="portal-hero">
+          <div class="portal-hero-copy">
+            <h2>Uma base web real para transformar o produto em plataforma.</h2>
+            <p>
+              Use o portal para autenticar o cliente, salvar onboarding, manter o workspace ativo e
+              preparar a proxima etapa de billing, automacao e suporte premium.
+            </p>
+
+            <form id="authForm" class="auth-card">
+              <label class="input-label" for="authEmail">Email da conta</label>
+              <div class="inline-form">
+                <input
+                  id="authEmail"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  placeholder="voce@empresa.com"
+                  required
+                />
+                <button id="authSubmit" class="btn btn-primary" type="submit">Enviar link magico</button>
+              </div>
+              <p id="authFeedback" class="helper-text">
+                O login usa email link no Firebase. Ative esse provedor no console para operacao plena.
+              </p>
+            </form>
+          </div>
+
+          <article class="glass-window portal-summary">
+            <div class="dashboard-top">
+              <div>
+                <span class="mini-label">Resumo operacional</span>
+                <strong id="workspaceName">Workspace aguardando configuracao</strong>
+              </div>
+              <span id="workspacePlan" class="status-chip">Plano Pro</span>
+            </div>
+            <div class="dashboard-preview-grid">
+              <div class="dashboard-stat">
+                <span>Status</span>
+                <strong id="workspaceStatus">Pre-onboarding</strong>
+              </div>
+              <div class="dashboard-stat">
+                <span>Portal</span>
+                <strong id="portalVersion">v8.0.4</strong>
+              </div>
+              <div class="dashboard-stat">
+                <span>Canal</span>
+                <strong>Firebase</strong>
+              </div>
+              <div class="dashboard-stat">
+                <span>Auth</span>
+                <strong>Email Link</strong>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="portal-grid-cards">
+          <article class="portal-card">
+            <span class="feature-tag">Perfil</span>
+            <h3 id="profileDisplayName">Conta nao autenticada</h3>
+            <p id="profileEmail">Entre com um email valido para persistir o perfil e o workspace.</p>
+          </article>
+          <article class="portal-card">
+            <span class="feature-tag">Plano</span>
+            <h3 id="planDisplay">Pro</h3>
+            <p>Estrutura pronta para futura conexao com cobranca, licenca e expansao de modulos.</p>
+          </article>
+          <article class="portal-card">
+            <span class="feature-tag">Seguranca</span>
+            <h3 id="securityState">Rules ativas</h3>
+            <p>Firestore protegido por dono do documento e preparado para App Check opcional.</p>
+          </article>
+          <article class="portal-card">
+            <span class="feature-tag">Billing</span>
+            <h3 id="billingStatusDisplay">PENDENTE</h3>
+            <p id="billingPlanDisplay">Planos Pro e Premium disponíveis pelo atendimento oficial.</p>
+          </article>
+        </section>
+
+        <section id="workspace" class="section-block portal-section">
+          <div class="section-heading section-heading-tight">
+            <span class="section-kicker">Workspace</span>
+            <h2>O coracao da camada SaaS.</h2>
+            <p>
+              Este documento central representa o ambiente do cliente e ja pode sustentar onboarding,
+              plano, uso principal e modulos ativos.
+            </p>
+          </div>
+
+          <div class="portal-two-columns">
+            <article class="portal-card portal-card-strong">
+              <h3>Modulos ativos</h3>
+              <div id="moduleChips" class="chip-cloud">
+                <span class="module-chip">cleanup</span>
+                <span class="module-chip">workspace</span>
+                <span class="module-chip">threats</span>
+                <span class="module-chip">automations</span>
+                <span class="module-chip">cloud</span>
+              </div>
+            </article>
+
+            <article class="portal-card">
+              <h3>Atividade recente</h3>
+              <ul id="activityList" class="activity-list">
+                <li>Conecte sua conta para gerar atividade persistida do workspace.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="onboarding" class="section-block portal-section">
+          <div class="section-heading section-heading-tight">
+            <span class="section-kicker">Onboarding</span>
+            <h2>Salve o contexto do cliente direto no Firestore.</h2>
+          </div>
+
+          <form id="workspaceForm" class="workspace-form">
+            <div class="form-grid">
+              <label class="input-block">
+                <span>Nome do workspace</span>
+                <input id="workspaceInput" name="workspaceName" type="text" placeholder="Ex.: Operacao Premium" maxlength="80" />
+              </label>
+              <label class="input-block">
+                <span>Empresa ou marca</span>
+                <input id="companyInput" name="company" type="text" placeholder="Ex.: NFiles" maxlength="80" />
+              </label>
+              <label class="input-block input-block-wide">
+                <span>Uso principal</span>
+                <textarea id="useCaseInput" name="useCase" rows="4" placeholder="Ex.: organizacao recorrente, seguranca leve e jornada de suporte premium." maxlength="300"></textarea>
+              </label>
+            </div>
+            <div class="actions">
+              <button id="workspaceSubmit" class="btn btn-primary" type="submit">Salvar workspace</button>
+              <p id="workspaceFeedback" class="helper-text">Faca login para gravar dados no portal.</p>
+            </div>
+          </form>
+        </section>
+
+        <section id="billing" class="section-block portal-section">
+          <div class="section-heading section-heading-tight">
+            <span class="section-kicker">Billing e licenca</span>
+            <h2>Sincronize a trilha comercial com o workspace.</h2>
+            <p>
+              Este bloco prepara a conta para atendimento comercial, revisão manual e vínculo de licença com o
+              portal. Ao salvar, o plano do perfil e do workspace e atualizado junto.
+            </p>
+          </div>
+
+          <div class="workspace-form">
+            <div class="proof-grid">
+              <article class="feature-panel"><span class="feature-tag">Plano</span><strong>Gerenciado com segurança</strong><p>Definido pelo atendimento oficial e por licença assinada.</p></article>
+              <article class="feature-panel"><span class="feature-tag">Status</span><strong>Somente leitura</strong><p>O navegador não pode alterar cobrança ou licença.</p></article>
+            </div>
+            <div class="actions">
+              <a class="btn btn-primary js-buy" href="https://wa.me/5515998516105">Falar sobre meu plano</a>
+              <p id="subscriptionFeedback" class="helper-text">Alterações comerciais são confirmadas pelo backend após o pagamento.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="security" class="section-block portal-section">
+          <div class="section-heading section-heading-tight">
+            <span class="section-kicker">Seguranca e readiness</span>
+            <h2>Base pronta para operacao real.</h2>
+          </div>
+
+          <div class="proof-grid">
+            <article class="feature-panel">
+              <span class="feature-tag">Auth</span>
+              <strong>Email link</strong>
+              <p>Entrada sem senha, melhor para onboarding e operacao premium orientada ao cliente.</p>
+            </article>
+            <article class="feature-panel">
+              <span class="feature-tag">Data</span>
+              <strong>Owner-scoped rules</strong>
+              <p>Perfil e workspace ficam restritos ao proprio usuario autenticado.</p>
+            </article>
+            <article class="feature-panel">
+              <span class="feature-tag">Next</span>
+              <strong>App Check e billing</strong>
+              <p>A estrutura ja deixa o caminho aberto para endurecimento e monetizacao.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="site.js"></script>
+    <script type="module" src="portal.js"></script>
+  </body>
+</html>
