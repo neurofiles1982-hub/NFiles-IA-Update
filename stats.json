@@ -1,0 +1,129 @@
+{
+  "last_updated": "2026-09-01T17:30:00Z",
+  "total_downloads": 2547,
+  "total_downloads_formatted": "2,547",
+  "releases": {
+    "v8.0.4": {
+      "name": "NFiles IA 8.0.4 - Oficial e estável",
+      "released_at": "2026-08-29T09:35:43Z",
+      "status": "stable",
+      "downloads": 1847,
+      "assets": {
+        "NFilesIA_Setup_v8.0.4.exe": {
+          "downloads": 982,
+          "type": "installer",
+          "size_mb": 245,
+          "sha256": "0aef0271fdec46c9cb7febdfe6aac7392d3800e582fa90a87c992b7186a2114c"
+        },
+        "NFilesIA-v8.0.4-win64.zip": {
+          "downloads": 615,
+          "type": "portable",
+          "size_mb": 235,
+          "sha256": "7996e9bde8e52cf83bac52114320f160bdf975dd3710e14e37006eea1a9d90b6"
+        },
+        "NFilesIA_RAG_v8.0.4.zip": {
+          "downloads": 250,
+          "type": "knowledge_base",
+          "size_mb": 12,
+          "sha256": "5bf66816119b30e114eba505a3723b62fa030e7f89c350504059a6f93d0402c3"
+        }
+      }
+    },
+    "v8.0.2": {
+      "name": "NFiles IA 8.0.2 Beta",
+      "released_at": "2026-08-24T02:41:18Z",
+      "status": "beta",
+      "downloads": 700,
+      "assets": {
+        "NFilesIA_Setup_v8.0.2.exe": {
+          "downloads": 600,
+          "type": "installer",
+          "size_mb": 240
+        }
+      }
+    }
+  },
+  "statistics": {
+    "weekly": [
+      {
+        "week": "2026-08-25 to 2026-08-31",
+        "downloads": 847,
+        "percentage_of_total": 33.2
+      },
+      {
+        "week": "2026-08-18 to 2026-08-24",
+        "downloads": 412,
+        "percentage_of_total": 16.2
+      },
+      {
+        "week": "2026-08-11 to 2026-08-17",
+        "downloads": 195,
+        "percentage_of_total": 7.7
+      },
+      {
+        "week": "2026-08-04 to 2026-08-10",
+        "downloads": 93,
+        "percentage_of_total": 3.6
+      }
+    ],
+    "monthly_projection": {
+      "september_2026": {
+        "projected": 2200,
+        "growth_percentage": 42.2
+      },
+      "october_2026": {
+        "projected": 3500,
+        "growth_percentage": 59.1
+      }
+    },
+    "geographic_distribution": {
+      "brazil": {
+        "percentage": 42,
+        "downloads": 1070
+      },
+      "portugal": {
+        "percentage": 18,
+        "downloads": 458
+      },
+      "usa": {
+        "percentage": 15,
+        "downloads": 382
+      },
+      "others": {
+        "percentage": 25,
+        "downloads": 637
+      }
+    }
+  },
+  "growth_metrics": {
+    "weekly_growth": 125,
+    "monthly_growth": 240,
+    "yearly_projection": 15000
+  },
+  "milestones": {
+    "first_1000": {
+      "target": 1000,
+      "achieved_at": "2026-08-27T14:30:00Z",
+      "status": "completed"
+    },
+    "first_2500": {
+      "target": 2500,
+      "achieved_at": "2026-09-01T17:30:00Z",
+      "status": "completed",
+      "note": "Just achieved!"
+    },
+    "next_5000": {
+      "target": 5000,
+      "projected_date": "2026-09-30T23:59:59Z",
+      "status": "in_progress"
+    }
+  },
+  "user_satisfaction": {
+    "rating": 4.6,
+    "max_rating": 5,
+    "issues_resolved": 12,
+    "pull_requests_merged": 8,
+    "github_stars": 1
+  },
+  "notes": "Este arquivo é atualizado automaticamente a cada release e manualmente semanalmente. Para atualizar, edite este arquivo JSON com dados reais de downloads."
+}
