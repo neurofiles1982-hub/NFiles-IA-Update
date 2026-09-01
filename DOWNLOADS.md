@@ -2,116 +2,78 @@
 
 <div align="center">
 
-[![Total Downloads](https://img.shields.io/badge/total%20downloads-2,547-blue?style=for-the-badge&logo=github)](https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases)
-[![Latest Release](https://img.shields.io/github/v/release/neurofiles1982-hub/NFiles-IA-Update?style=for-the-badge&label=versão%20atual&color=5865f2)](https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/neurofiles1982-hub/NFiles-IA-Update?style=for-the-badge&label=versão%20atual&color=5865f2)](https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases)
 [![Last Updated](https://img.shields.io/badge/atualizado%20em-01%2F09%2F2026-green?style=for-the-badge)](https://github.com/neurofiles1982-hub/NFiles-IA-Update/commits)
 
 </div>
 
 ---
 
-## 📊 Resumo de Downloads por Versão
+## 📊 Versões Disponíveis
 
-| Versão | Data de Lançamento | Downloads | Status |
-|--------|-------------------|-----------|--------|
-| **8.0.4** | 29/08/2026 | **1,847** ⬆️ | Estável (Atual) |
-| **8.0.2 Beta** | 24/08/2026 | **700** | Beta |
-| **Total** | — | **2,547** | — |
+| Versão | Data de Lançamento | Status |
+|--------|-------------------|--------|
+| **8.0.4** | 29/08/2026 | ✅ Estável (Atual) |
+| **8.0.2 Beta** | 24/08/2026 | 🧪 Beta |
 
----
-
-## 🔢 Gráfico de Downloads (Últimas 4 Semanas)
-
-```
-Semana 1 (25/08 - 31/08):  ████████████░░░░░░░░ 847 downloads
-Semana 2 (18/08 - 24/08):  ████████░░░░░░░░░░░░ 412 downloads
-Semana 3 (11/08 - 17/08):  ████░░░░░░░░░░░░░░░░ 195 downloads
-Semana 4 (04/08 - 10/08):  ██░░░░░░░░░░░░░░░░░░ 93 downloads
-
-Total 4 semanas: 1,547 downloads ↗️
-```
+> ℹ️ **Nota:** Os números de download exatos são atualizados automaticamente pelo GitHub. Para ver estatísticas em tempo real, visite a [página de Releases](https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases).
 
 ---
 
-## 📦 Instaladores por Tipo
+## 📦 Instaladores Disponíveis
 
-| Instalador | Downloads | Popularidade |
-|------------|-----------|--------------|
-| `NFilesIA_Setup_v8.0.4.exe` | 982 | ⭐⭐⭐⭐⭐ |
-| `NFilesIA-v8.0.4-win64.zip` | 615 | ⭐⭐⭐⭐ |
-| `NFilesIA_RAG_v8.0.4.zip` | 250 | ⭐⭐ |
-| Arquivos SHA-256 | 412 | ⭐⭐⭐ |
-
----
-
-## 🌍 Origem Geográfica Estimada (%)
-
-| País/Região | % | Downloads |
-|-------------|---|-----------|
-| 🇧🇷 Brasil | 42% | ~1,070 |
-| 🇵🇹 Portugal | 18% | ~458 |
-| 🇦🇩 EUA | 15% | ~382 |
-| 🌍 Outros | 25% | ~637 |
-
----
-
-## 📈 Tendências e Previsões
-
-### Crescimento Mês a Mês
-```
-Agosto 2026:  1,547 downloads 📊
-Setembro 2026 (projeção): 2,200+ downloads ↗️
-Outubro 2026 (projeção): 3,500+ downloads ↗️↗️
-```
-
-### Taxa de Crescimento
-- **Semanal:** +125% (comparado à semana anterior)
-- **Mensal:** +240% (em relação a julho)
-- **Crescimento esperado até final do ano:** 15,000+ downloads
-
----
-
-## ⭐ Metas de Downloads
-
-| Meta | Data | Status |
-|------|------|--------|
-| 1.000 downloads | 27/08/2026 | ✅ Atingida |
-| 2.500 downloads | 02/09/2026 | 🎯 Próxima (atual: 2,547) |
-| 5.000 downloads | 30/09/2026 | 📅 Planejado |
-| 10.000 downloads | 31/12/2026 | 📅 Planejado |
-| 50.000 downloads | 30/06/2027 | 🚀 Ambicioso |
+| Instalador | Tipo | Descrição |
+|------------|------|-----------|
+| `NFilesIA_Setup_v8.0.4.exe` | Instalador Windows | Recomendado para a maioria dos usuários |
+| `NFilesIA-v8.0.4-win64.zip` | Portável | Versão sem instalação |
+| `NFilesIA_RAG_v8.0.4.zip` | Base de Conhecimento | Dados de IA supervisionados |
 
 ---
 
 ## 🔗 Links de Download
 
 ### ⚡ Download Rápido (Recomendado)
-- **[Instalador Windows (v8.0.4)](https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/download/v8.0.4/NFilesIA_Setup_v8.0.4.exe)**
-- SHA-256: `0aef0271fdec46c9cb7febdfe6aac7392d3800e582fa90a87c992b7186a2114c`
 
-### 📦 Alternativas
-- **[ZIP Portável](https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/download/v8.0.4/NFilesIA-v8.0.4-win64.zip)**
-- **[Base de Conhecimento RAG](https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/download/v8.0.4/NFilesIA_RAG_v8.0.4.zip)**
+**[🔽 Baixar v8.0.4 (Estável)](https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/tag/v8.0.4)**
+
+- Instalador Windows: `NFilesIA_Setup_v8.0.4.exe`
+- Portável ZIP: `NFilesIA-v8.0.4-win64.zip`
+- Base RAG: `NFilesIA_RAG_v8.0.4.zip`
 
 ### 📝 Verificar Integridade
+
+Cada arquivo possui um hash SHA-256. Para verificar:
+
 ```bash
 # Windows PowerShell
 (Get-FileHash "NFilesIA_Setup_v8.0.4.exe").Hash
-# Deve ser: 0aef0271fdec46c9cb7febdfe6aac7392d3800e582fa90a87c992b7186a2114c
+# Comparar com o arquivo .sha256 fornecido
+```
+
+```bash
+# Linux/macOS
+sha256sum NFilesIA_Setup_v8.0.4.exe
 ```
 
 ---
 
-## 📞 Feedback dos Usuários
+## 🧪 Versão Beta
 
-**Satisfação Estimada:** 4.6/5 ⭐⭐⭐⭐⭐
+**[v8.0.2 Beta (24/08/2026)](https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/tag/v8.0.2)**
 
-Baseado em:
-- 12 Issues resolvidas
-- 8 Pull Requests mergeadas
-- 1 Star ⭐
+- Interface de chat integrada
+- IA local com opção Google Colab
+- Ferramentas de organização e limpeza
+- ⚠️ Pode conter bugs - use com cuidado
 
-> "NFiles IA mudou a forma como organizo meus arquivos!" — Usuário do GitHub
+---
+
+## 📈 Acompanhar Progresso
+
+Para ver estatísticas atualizadas em tempo real:
+- 📊 [Analytics do Repositório](https://github.com/neurofiles1982-hub/NFiles-IA-Update/pulse)
+- 🔄 [Releases](https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases)
+- ⭐ [Favorites e Watchers](https://github.com/neurofiles1982-hub/NFiles-IA-Update)
 
 ---
 
@@ -119,8 +81,8 @@ Baseado em:
 
 Gostou do NFiles IA? 
 - ⭐ **Deixe uma estrela** no repositório
-- 🐛 **Reporte bugs** via Issues
-- 💡 **Sugira melhorias** em Discussions (em breve)
+- 🐛 **Reporte bugs** via [Issues](https://github.com/neurofiles1982-hub/NFiles-IA-Update/issues)
+- 💡 **Sugira melhorias** criando uma Issue
 - 📢 **Compartilhe** com amigos!
 
 ---
@@ -128,12 +90,12 @@ Gostou do NFiles IA?
 ## 📅 Última Atualização
 **01 de Setembro de 2026 às 17:30 UTC**
 
-*Este documento é atualizado semanalmente. Próxima atualização: 08 de Setembro de 2026*
+*Este documento é mantido atualizado. Para estatísticas em tempo real, verifique o GitHub Analytics.*
 
 ---
 
 <div align="center">
 
-**[⬇️ Baixar Agora](https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/latest)** • **[📖 Documentação](/)** • **[📧 Contato](mailto:neurofilesaipro@hotmail.com)**
+**[⬇️ Baixar Agora](https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/latest)** • **[📖 Documentação](/)** • **[📧 Contato](mailto:neurofilesaipro@hotmail.com)** • **[📊 Analytics](https://github.com/neurofiles1982-hub/NFiles-IA-Update/pulse)**
 
 </div>
