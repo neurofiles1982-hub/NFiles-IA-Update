@@ -1,55 +1,115 @@
-name: Relatar um problema
-description: Informe um erro reproduzível no NFiles IA.
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: 🐛 Relatar um Bug
+description: Algo não está funcionando como deveria
+title: "[BUG] "
+labels: ["bug"]
+assignees: []
+
 body:
   - type: markdown
     attributes:
-      value: |
-        Obrigado por ajudar a melhorar o NFiles IA. Não publique tokens, licenças, documentos privados ou caminhos com seu nome de usuário.
-  - type: input
-    id: version
-    attributes:
-      label: Versão do NFiles IA
-      placeholder: "Exemplo: 8.0.2 Beta"
-    validations:
-      required: true
-  - type: dropdown
-    id: windows
-    attributes:
-      label: Windows
-      options:
-        - Windows 11
-        - Windows 10
-        - Outro
-    validations:
-      required: true
+      value: "Obrigado por relatar um bug! Preencha o formulário abaixo com detalhes."
+
   - type: textarea
-    id: problem
+    id: description
     attributes:
-      label: O que aconteceu?
-      description: Descreva o comportamento observado e o resultado esperado.
+      label: "Descrição do problema"
+      description: "Descreva claramente o que está acontecendo de errado"
+      placeholder: "Ex: Quando clico em 'Encontrar Duplicados', o app trava"
     validations:
       required: true
+
   - type: textarea
     id: steps
     attributes:
-      label: Como reproduzir
+      label: "Passos para reproduzir"
+      description: "Quais são os passos exatos para reproduzir o problema?"
       placeholder: |
-        1. Abra...
-        2. Clique em...
-        3. Observe...
+        1. Abri o NFiles IA
+        2. Cliquei em Ferramentas
+        3. Selecionei 'Encontrar Duplicados'
+        4. Escolhi pasta com 1000+ arquivos
+        5. App trava
+      rows: 10
     validations:
       required: true
+
   - type: textarea
-    id: evidence
+    id: expected
     attributes:
-      label: Evidências sem dados pessoais
-      description: Arraste prints ou cole mensagens de erro depois de remover tokens, nomes e caminhos privados.
-  - type: checkboxes
-    id: privacy
+      label: "Comportamento esperado"
+      description: "O que deveria acontecer?"
+      placeholder: "Ex: App deveria analisar os arquivos sem travar"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
     attributes:
-      label: Verificação de privacidade
+      label: "Comportamento atual"
+      description: "O que realmente está acontecendo?"
+      placeholder: "Ex: App fica travado por 5 minutos e fecha"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: windows-version
+    attributes:
+      label: "Versão do Windows"
       options:
-        - label: Confirmei que não incluí tokens, chaves, licenças ou documentos privados.
+        - Windows 10 (1909)
+        - Windows 10 (20H2)
+        - Windows 10 (21H2)
+        - Windows 11 (21H2)
+        - Windows 11 (22H2)
+        - Outra (especifique abaixo)
+    validations:
+      required: true
+
+  - type: input
+    id: nfiles-version
+    attributes:
+      label: "Versão do NFiles IA"
+      description: "Encontre em: Menu → Sobre"
+      placeholder: "Ex: 8.0.4"
+    validations:
+      required: true
+
+  - type: textarea
+    id: system-info
+    attributes:
+      label: "Informações do Sistema"
+      description: "Memória RAM, GPU, etc (pode deixar em branco se não souber)"
+      placeholder: |
+        RAM: 16 GB
+        GPU: NVIDIA RTX 3080
+        Disco: SSD 1TB
+        Processador: Intel i7-11700K
+      rows: 5
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs ou mensagens de erro"
+      description: "Se houver erro, copie a mensagem exata"
+      placeholder: "Ex: Exception: OutOfMemoryException at line 234"
+      rows: 5
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots ou GIFs"
+      description: "Anexe se possível (REMOVA DADOS PESSOAIS antes!)"
+      placeholder: "Descrição do que é mostrado na imagem"
+      rows: 3
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "Removi dados pessoais de screenshots"
+          required: true
+        - label: "Li a FAQ antes de reportar"
+          required: false
+        - label: "Este bug não foi reportado antes"
           required: true

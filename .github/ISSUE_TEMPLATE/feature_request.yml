@@ -1,33 +1,81 @@
-name: Sugerir uma melhoria
-description: Proponha uma funcionalidade ou melhoria de experiência.
-title: "[Sugestão]: "
-labels: ["enhancement", "triage"]
+name: "💡 Sugerir uma Melhoria"
+description: "Tenho uma ideia para melhorar o NFiles IA"
+title: "[FEATURE] "
+labels: ["enhancement"]
+assignees: []
+
 body:
-  - type: textarea
-    id: need
+  - type: markdown
     attributes:
-      label: Qual problema esta sugestão resolve?
-      description: Explique a necessidade antes de descrever a solução.
+      value: "Ótimo! Adoramos ouvir novas ideias. Descreva sua sugestão abaixo."
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Descrição da Melhoria"
+      description: "Descreva em detalhes o que você gostaria que fosse adicionado ou melhorado"
+      placeholder: "Ex: Adicionar suporte para organizar arquivos por data de modificação automaticamente"
+      rows: 5
     validations:
       required: true
+
   - type: textarea
-    id: proposal
+    id: problem
     attributes:
-      label: Como você imagina a solução?
+      label: "Qual problema esta melhoria resolveria?"
+      description: "Por que você acha que isso seria útil?"
+      placeholder: "Ex: Atualmente tenho que organizar manualmente arquivos por período"
+      rows: 5
     validations:
       required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Solução Proposta"
+      description: "Como você imagina que isso funcionaria?"
+      placeholder: |
+        1. Usuário clica em 'Organizar por Data'
+        2. App pergunta intervalo (ex: últimos 30 dias)
+        3. Cria pastas automáticas (2026/Setembro, 2026/Agosto, etc)
+        4. Move arquivos para respectivas pastas
+      rows: 5
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternativas Consideradas"
+      description: "Existem outras formas de resolver isso?"
+      placeholder: "Ex: Usar tags em vez de pastas, criar filtros inteligentes"
+      rows: 4
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: "Exemplos de Aplicações Similares"
+      description: "Conhece outro app que faça algo parecido?"
+      placeholder: "Ex: Windows Explorer tem agrupamento por data nativo"
+      rows: 3
+
   - type: dropdown
-    id: area
+    id: priority
     attributes:
-      label: Área relacionada
+      label: "Prioridade"
+      description: "Qual é a urgência?"
       options:
-        - Inteligência e chat
-        - Arquivos e organização
-        - Limpeza e desempenho
-        - Segurança
-        - Documentos
-        - Interface e acessibilidade
-        - Instalação e atualização
-        - Outra
-    validations:
-      required: true
+        - Baixa (nice to have)
+        - Média (útil)
+        - Alta (muito importante)
+      default: 1
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "Pesquisei por sugestões similares"
+          required: true
+        - label: "Esta é uma sugestão clara e específica"
+          required: true
+        - label: "Consigo explicar por que isto seria útil"
+          required: true
