@@ -9,6 +9,7 @@
   <img alt="Versão 8.0.4" src="https://img.shields.io/badge/versão-8.0.4-5865f2">
   <img alt="Release oficial estável" src="https://img.shields.io/badge/status-release%20estável-238636">
   <img alt="Windows 10 e 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4">
+  <a href="DOWNLOADS.md"><img alt="Total de Downloads" src="https://img.shields.io/badge/downloads-2%2C547-blue"></a>
   <a href="../../issues"><img alt="Issues abertas" src="https://img.shields.io/badge/Issues-abertas%20ao%20público-238636"></a>
 </p>
 
@@ -18,6 +19,8 @@
   <a href="https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/latest"><strong>⬇ Baixar o release oficial</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/neurofiles1982-hub/NFiles-IA-Update/issues/new/choose"><strong>Enviar feedback</strong></a>
+  &nbsp;·&nbsp;
+  <a href="DOWNLOADS.md"><strong>📊 Ver estatísticas</strong></a>
 </p>
 
 ![Conversa do NFiles IA](media/nfiles-ia-beta-chat.png)
@@ -34,11 +37,11 @@ O NFiles IA adapta o processamento ao computador. Em máquinas com menos memóri
 
 ## Uma história construída com persistência
 
-O NFiles IA nasceu em um computador modesto e foi desenvolvido por uma única pessoa ao longo de mais de um ano. Seu criador começou a aprender programação em 1994 e continuou próximo da tecnologia desde então, transformando décadas de curiosidade em um produto voltado a problemas reais do dia a dia.
+O NFiles IA nasceu em um computador modesto e foi desenvolvido por uma única pessoa ao longo de mais de um ano. Seu criador começou a aprender programação em 1994 e continuou próximo da tecno[...]
 
-Essa origem definiu uma regra do projeto: inteligência só é útil quando respeita o computador de quem a utiliza. Por isso, o NFiles IA foi desenhado para dividir tarefas em etapas, limitar paralelismo, processar grandes coleções progressivamente e adaptar a IA à memória disponível. Quando o hardware local não é suficiente, a conexão opcional com uma sessão Colab do próprio usuário oferece um caminho adicional sem retirar as ferramentas nativas do aplicativo.
+Essa origem definiu uma regra do projeto: inteligência só é útil quando respeita o computador de quem a utiliza. Por isso, o NFiles IA foi desenhado para dividir tarefas em etapas, limitar par[...]
 
-Não é apenas uma tela de conversa. A IA acompanha um conjunto de ferramentas que pode ajudar a organizar arquivos, localizar espaço recuperável, revisar duplicados, ler documentos e verificar sinais de risco — sempre com limites de recursos e confirmação antes de ações importantes.
+Não é apenas uma tela de conversa. A IA acompanha um conjunto de ferramentas que pode ajudar a organizar arquivos, localizar espaço recuperável, revisar duplicados, ler documentos e verificar [...]
 
 ## Interface moderna e direta
 
@@ -76,6 +79,8 @@ Guias, materiais visuais e conteúdos do ecossistema ficam disponíveis sem mist
 As versões oficiais são publicadas em [Releases](../../releases). Cada pacote deve acompanhar hash SHA-256 e notas da versão.
 
 > A versão 8.0.4 é o release oficial estável atual. Não baixe instaladores enviados por terceiros e nunca compartilhe tokens do Colab em Issues.
+
+**📊 [Ver estatísticas completas de downloads →](DOWNLOADS.md)**
 
 ## Suporte público
 
