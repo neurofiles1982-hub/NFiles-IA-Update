@@ -1,35 +1,25 @@
 {
-  "version": "8.0.4",
-  "official_version": "8.0.4",
-  "display_version": "8.0.4",
+  "version": "8.0.5",
+  "official_version": "8.0.5",
+  "display_version": "8.0.5",
   "release_track": "official",
   "codename": "Aurora",
   "source_url": "https://raw.githubusercontent.com/neurofiles1982-hub/NFiles-IA-Update/main/version.json",
-  "release_page": "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/tag/v8.0.4",
-  "download_url": "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/download/v8.0.4/NFilesIA-v8.0.4-win64.zip",
-  "sha256": "7996e9bde8e52cf83bac52114320f160bdf975dd3710e14e37006eea1a9d90b6",
+  "release_page": "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/tag/v8.0.5",
+  "download_url": "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/download/v8.0.5/NFilesIA-v8.0.5-win64.zip",
+  "sha256": "bbf61c8594cb625634f4a3f9b33ce64c2b0456103cf85e5622e46f0598d13c7b",
   "release_notes": [
-    "Release oficial e estavel da serie Aurora.",
-    "Nova abertura com animacao leve e progresso real.",
-    "Pesquisa web verificavel e RAG oficial atualizavel de forma independente."
+    "Release oficial e estável da série Aurora.",
+    "Automação segura pelo chat com confirmação para ações destrutivas.",
+    "Cópia de respostas corrigida e segurança de pacotes reforçada."
   ],
   "bootstrap_url": "",
-  "installer_url": "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/download/v8.0.4/NFilesIA_Setup_v8.0.4.exe",
-  "installer_sha256": "0aef0271fdec46c9cb7febdfe6aac7392d3800e582fa90a87c992b7186a2114c",
-  "rag_pack": {
-    "version": "8.0.4",
-    "title": "Conhecimento NFiles IA 8.0.4",
-    "description": "Atualização oficial do conhecimento RAG.",
-    "asset_name": "NFilesIA_RAG_v8.0.4.zip",
-    "download_url": "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/download/v8.0.4/NFilesIA_RAG_v8.0.4.zip",
-    "sha256": "5bf66816119b30e114eba505a3723b62fa030e7f89c350504059a6f93d0402c3",
-    "size_bytes": 12345,
-    "requires_user_confirmation": true
-  },
+  "installer_url": "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/download/v8.0.5/NFilesIA_Setup_v8.0.5.exe",
+  "installer_sha256": "75bc3eb719fd35ad9feef2483fcdffa95db8685e84c99fc29fad77f79c97a0e3",
   "manifest_signature": {
     "schema": 1,
     "algorithm": "RSA-PSS-SHA256",
     "key": "update_public.pem",
-    "signature": "C8hVDcQmldBh4VKPLLeN32PJgYeJokXqsPg4-AlEZyw9G_sfNeUwrDGq6ZKrJ-2ltO2HQXaM0FZ2vU-d9NQpEES3Zb3PtHmrE6nwVAhey0HCJRWiNXVqR_JsgD__MoOGiV1vSObyTWWIYqBuz7BcbFm0CV6hU164ufBrC49U1N-zXBsZgWoZErp1zZjL8a0CIVf52iH5O8qU7pXHTkSWZ73FNe2afUUC7Ul7wQ3b-pXRzNR0i73NS80H-_UTCdDMjph-NXDZTzgcZNfAh5Cf2DfA1H-aOc3kXXU_3kIBuH23OilQF7fw9cG1-H2KdGlmLxJaGrZYv-Oq_O19kPlo60jPVK-p9toYMkUTVwUl649f0_kSS9XMAVrVh9LkH87pMVAk_Z_eXrg-9fdJUtaQ6-uujryb-9RtDHuE8BI0r9e4opUoz0rXkrfslkYJvcWOUA5_uRw82VtNBWfjbNThM-FCFzI_cV1hCMcosK98p5ViLAUkISeQUnaECYmIpMrp-79xwWyeLFTpnmszYYDgMagceL_EVGOR0DVvumOiq6mbbvSIsO-EiSKS2tKQTWS3dfZKny18HRKzB73mBk2AwZrulWORCjzmrgBbQxYgBnG0WtXAvnIC0JDFq50XDIs8OfvMd19sL6LDVlecn0cNQMGgm68mWbyDNjqrwtaTmGk"
+    "signature": "e35y9RGgmST0uDPxbXd9cNZWZbbb5xoF7BohLETgxojfjNF_M7xFJm6ovERPRKCbQhu3CJ-w5qhvl7-3bDFJrsptBXwMKuWSkUstnUpco6jPD03C490Ls7BQDcvLQEPDt5NUD6iHpc4vDpXCbqzYCpdAPCzkbfjgMPlpllgpMtEasvbiE4xjDwEgYLGu8cXvJV-xBEfOHt_fmZ1WGKqDmp1wPjLE2aJD0vjDLaT_yeWSxjdoj_nixAuFGcHOZlxNt1HETZWE03Yc0G__z9ZSh01HNojhYeJL4TJE5wkXnVZfmefa4hwRxlVoGHHlS_RUSyifGa5mupeMItwwELgq6lNxNNS8trQao7xOkjXzRqc4W2Y401charjRP6IRDHLxjg1Qu4n0um1fGxuxqSxelSjvpfYB1bcXkVZZg1HQr_V2f6Yu8cv2QX4ZIMaV8Em6eaxwxxoibevTC9vt4YU7a_fXuIUP3PRQin746hAUB0IF-UWwDMmp-hl-edkkzCcL0uN0TGiUepobdfhxfDeL2gxlHjF1eTdi-3hiaapCikTlPrIzSOz-5XspN9NetUtOd-Wm-9wLWq5jChAIUwY5BUCch3XYYMWDCrZ5Cq_KUGA0Wc4hJYnTY2cNONyfppa405wkZTDUjOR2X_k4LdLVx5Lnwqfhh2eF3zgZBM8Zd-k"
   }
 }
