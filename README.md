@@ -9,7 +9,7 @@
   <img alt="Versão 8.0.4" src="https://img.shields.io/badge/versão-8.0.4-5865f2">
   <img alt="Release oficial estável" src="https://img.shields.io/badge/status-release%20estável-238636">
   <img alt="Windows 10 e 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4">
-  <a href="DOWNLOADS.md"><img alt="Total de Downloads" src="https://img.shields.io/badge/downloads-2%1C-blue"></a>
+  <a href="DOWNLOADS.md"><img alt="Total de Downloads" src="https://img.shields.io/badge/downloads-0-blue"></a>
   <a href="../../issues"><img alt="Issues abertas" src="https://img.shields.io/badge/Issues-abertas%20ao%20público-238636"></a>
 </p>
 
