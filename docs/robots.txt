@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://neurofiles1982-hub.github.io/NFiles-IA-Update/sitemap.xml

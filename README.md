@@ -1,4 +1,4 @@
-# NFiles IA
+﻿# NFiles IA
 
 <p align="center">
   <strong>Seu espaço digital, organizado com inteligência.</strong><br>
@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img alt="Versão 8.0.4" src="https://img.shields.io/badge/versão-8.0.4-5865f2">
+  <img alt="Versão 8.0.5" src="https://img.shields.io/badge/versão-8.0.5-5865f2">
   <img alt="Release oficial estável" src="https://img.shields.io/badge/status-release%20estável-238636">
   <img alt="Windows 10 e 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4">
   <a href="DOWNLOADS.md"><img alt="Total de Downloads" src="https://img.shields.io/badge/downloads-0-blue"></a>
@@ -14,6 +14,15 @@
 </p>
 
 > Este é o canal público oficial de atualizações, downloads, documentação e suporte do NFiles IA. O código-fonte principal permanece privado durante o desenvolvimento.
+## Central de Ajuda
+
+- [Página inicial](https://neurofiles1982-hub.github.io/NFiles-IA-Update/)
+- [Instalação e requisitos](https://neurofiles1982-hub.github.io/NFiles-IA-Update/instalacao.html)
+- [Como o sistema funciona](https://neurofiles1982-hub.github.io/NFiles-IA-Update/como-funciona.html)
+- [Perguntas frequentes](https://neurofiles1982-hub.github.io/NFiles-IA-Update/faq.html)
+- [Suporte](https://neurofiles1982-hub.github.io/NFiles-IA-Update/suporte.html)
+- [Privacidade](https://neurofiles1982-hub.github.io/NFiles-IA-Update/privacy.html)
+- [Termos de uso](https://neurofiles1982-hub.github.io/NFiles-IA-Update/terms.html)
 
 <p align="center">
   <a href="https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases/latest"><strong>⬇ Baixar o release oficial</strong></a>
@@ -78,7 +87,7 @@ Guias, materiais visuais e conteúdos do ecossistema ficam disponíveis sem mist
 
 As versões oficiais são publicadas em [Releases](../../releases). Cada pacote deve acompanhar hash SHA-256 e notas da versão.
 
-> A versão 8.0.4 é o release oficial estável atual. Não baixe instaladores enviados por terceiros e nunca compartilhe tokens do Colab em Issues.
+> A versão 8.0.5 é o release oficial estável atual. Não baixe instaladores enviados por terceiros e nunca compartilhe tokens do Colab em Issues.
 
 **📊 [Ver estatísticas completas de downloads →](DOWNLOADS.md)**
 
@@ -108,7 +117,7 @@ As datas são metas de desenvolvimento, não promessa de entrega. Cada capacidad
 - Tokens e credenciais nunca devem ser publicados.
 - Modelos e componentes são distribuídos separadamente, com versão e integridade verificáveis.
 
-Para contato privado: `neurofilesaipro@hotmail.com`.
+Para contato privado: `nfilesia@gmail.com` ou `+55 15 99851-6105`.
 
 ---
 

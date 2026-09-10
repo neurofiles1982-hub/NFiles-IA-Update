@@ -1,7 +1,7 @@
 window.NEUROFILES_SITE_CONFIG = {
   purchaseUrl: "https://wa.me/5515998516105?text=Ol%C3%A1%2C%20quero%20conhecer%20os%20planos%20Pro%20e%20Premium%20do%20NFiles%20IA.",
   supportEmail: "nfilesia@gmail.com",
-  productVersion: "8.0.4",
+  productVersion: "8.0.5",
   releasePageUrl: "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases",
   installerDownloadUrl: "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases",
   portableDownloadUrl: "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases",

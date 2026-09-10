@@ -1,10 +1,1 @@
-(() => {
-  const config = window.NEUROFILES_SITE_CONFIG || {};
-  const release = config.installerDownloadUrl || config.releasePageUrl || "#";
-  document.querySelectorAll("[data-release]").forEach((link) => { link.href = release; });
-  const email = String(config.supportEmail || "nfilesia@gmail.com");
-  const emailLink = document.querySelector("#email");
-  if (emailLink) { emailLink.href = `mailto:${email}`; emailLink.textContent = email; }
-  const whatsapp = document.querySelector("#whatsapp");
-  if (whatsapp) whatsapp.href = config.purchaseUrl || "https://wa.me/5515998516105";
-})();
+(()=>{"use strict";const menu=document.querySelector("[data-menu]"),links=document.querySelector("[data-nav-links]");if(menu&&links)menu.addEventListener("click",()=>{const open=links.classList.toggle("open");menu.setAttribute("aria-expanded",String(open))});document.querySelectorAll("[data-year]").forEach(node=>node.textContent=String(new Date().getFullYear()));const search=document.querySelector("[data-faq-search]");if(search){const items=[...document.querySelectorAll("[data-faq-item]")],empty=document.querySelector("[data-faq-empty]");search.addEventListener("input",()=>{const query=search.value.trim().toLocaleLowerCase("pt-BR");let visible=0;for(const item of items){const match=!query||item.textContent.toLocaleLowerCase("pt-BR").includes(query);item.hidden=!match;if(match)visible++}if(empty)empty.style.display=visible?"none":"block"})}})();
