@@ -1,11 +1,12 @@
 window.NEUROFILES_SITE_CONFIG = {
-  purchaseUrl: "https://wa.me/5515998516105?text=Ol%C3%A1%2C%20quero%20conhecer%20os%20planos%20Pro%20e%20Premium%20do%20NFiles%20IA.",
+  hotmartCheckoutUrl: "https://pay.hotmart.com/J105652674D",
   supportEmail: "nfilesia@gmail.com",
+  whatsappNumber: "5515998516105",
   productVersion: "8.0.5",
-  releasePageUrl: "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases",
-  installerDownloadUrl: "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases",
-  portableDownloadUrl: "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases",
-  downloaderDownloadUrl: "https://github.com/neurofiles1982-hub/NFiles-IA-Update/releases",
+  releasePageUrl: "https://github.com/Wolffox1982/Neuro-Files-Updates/releases",
+  installerDownloadUrl: "https://github.com/Wolffox1982/Neuro-Files-Updates/releases",
+  portableDownloadUrl: "https://github.com/Wolffox1982/Neuro-Files-Updates/releases",
+  downloaderDownloadUrl: "https://github.com/Wolffox1982/Neuro-Files-Updates/releases",
   portalUrl: "app.html",
   authEmailFromName: "NFiles IA",
   firebaseConfig: {

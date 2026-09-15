@@ -165,8 +165,8 @@ function getDefaultWorkspace(user) {
     ownerUid: user.uid,
     name: workspaceName,
     slug: slugify(workspaceName),
-    desktopVersion: String(config.productVersion || "8.0.4"),
-    portalVersion: String(config.productVersion || "8.0.4"),
+    desktopVersion: String(config.productVersion || "8.0.2"),
+    portalVersion: String(config.productVersion || "8.0.2"),
     plan: "starter",
     status: "lead",
     primaryUseCase: "",
@@ -187,7 +187,7 @@ function getDefaultSubscription() {
     plan: "pro",
     billingStatus: "pending",
     provider: "hotmart",
-    checkoutUrl: String(config.purchaseUrl || config.hotmartCheckoutUrl || ""),
+    checkoutUrl: String(config.hotmartCheckoutUrl || ""),
     licenseId: "",
     statusNote: ""
   };
@@ -241,7 +241,7 @@ function hydrateWorkspace(profile, workspace, subscription, user) {
   setText(elements.workspaceName, String(workspace?.name || "Workspace sem nome"));
   setText(elements.workspacePlan, `Plano ${effectivePlan}`);
   setText(elements.workspaceStatus, String(workspace?.status || "active"));
-  setText(elements.portalVersion, `v${String(workspace?.portalVersion || config.productVersion || "8.0.4")}`);
+  setText(elements.portalVersion, `v${String(workspace?.portalVersion || config.productVersion || "8.0.2")}`);
   setText(elements.profileDisplayName, String(profile?.displayName || user.email || "Conta Pro"));
   setText(elements.profileEmail, String(profile?.email || user.email || ""));
   setText(elements.planDisplay, effectivePlan);
@@ -269,7 +269,7 @@ function resetWorkspaceView() {
   setText(elements.profileDisplayName, "Conta nao autenticada");
   setText(elements.profileEmail, "Entre com um email valido para persistir o perfil e o workspace.");
   setText(elements.billingStatusDisplay, "PENDENTE");
-  setText(elements.billingPlanDisplay, "Planos Pro e Premium disponíveis pelo atendimento oficial.");
+  setText(elements.billingPlanDisplay, "Plano Pro com checkout pronto para sincronizacao comercial.");
   renderModuleChips(null);
   renderActivity(["Conecte sua conta para gerar atividade persistida do workspace."]);
 }
@@ -382,8 +382,8 @@ async function handleWorkspaceSubmit(event) {
         ownerUid: user.uid,
         name: workspaceName,
         slug: slugify(workspaceName),
-        desktopVersion: String(config.productVersion || "8.0.4"),
-        portalVersion: String(config.productVersion || "8.0.4"),
+        desktopVersion: String(config.productVersion || "8.0.2"),
+        portalVersion: String(config.productVersion || "8.0.2"),
         primaryUseCase: useCase,
         modules: {
           cleanup: true,
