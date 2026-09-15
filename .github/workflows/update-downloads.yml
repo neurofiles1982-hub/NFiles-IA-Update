@@ -7,6 +7,9 @@ on:
   workflow_dispatch:
     # Permite executar manualmente
 
+permissions:
+  contents: write
+
 jobs:
   update-downloads:
     runs-on: ubuntu-latest
