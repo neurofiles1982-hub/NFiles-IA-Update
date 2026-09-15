@@ -1,0 +1,77 @@
+name: 📊 Update Downloads Count
+
+on:
+  schedule:
+    # Executa a cada 6 horas
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    # Permite executar manualmente
+
+jobs:
+  update-downloads:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Count downloads from releases
+        id: count
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const releases = await github.rest.repos.listReleases({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              per_page: 100
+            });
+            
+            let totalDownloads = 0;
+            const versionStats = {};
+            
+            releases.data.forEach(release => {
+              if (!release.draft) {
+                let releaseDownloads = 0;
+                release.assets.forEach(asset => {
+                  releaseDownloads += asset.download_count;
+                });
+                if (releaseDownloads > 0) {
+                  versionStats[release.tag_name] = releaseDownloads;
+                }
+                totalDownloads += releaseDownloads;
+              }
+            });
+            
+            console.log(`Total downloads: ${totalDownloads}`);
+            console.log('Downloads por versão:', versionStats);
+            core.setOutput('downloads', totalDownloads);
+            core.setOutput('stats', JSON.stringify(versionStats));
+
+      - name: Update README with download count
+        run: |
+          DOWNLOADS=${{ steps.count.outputs.downloads }}
+          # Atualiza o badge de downloads
+          sed -i "s/downloads-[0-9]\+-blue/downloads-${DOWNLOADS}-blue/g" README.md
+          # Atualiza a data de última atualização
+          DATE=$(date -u '+%d\/%m\/%Y às %H:%M UTC')
+          sed -i "s/Última atualização: .*/Última atualização: ${DATE}/g" README.md
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "Nenhuma alteração na contagem de downloads"
+          else
+            git commit -m "chore: atualizar contagem de downloads automaticamente"
+            git push
+            echo "✅ Downloads atualizados com sucesso!"
+          fi
+
+      - name: Log summary
+        run: |
+          echo "📊 Relatório de Downloads"
+          echo "========================="
+          echo "Total: ${{ steps.count.outputs.downloads }} downloads"
+          echo "Estatísticas: ${{ steps.count.outputs.stats }}"
