@@ -9,7 +9,7 @@
   <img alt="Versão 8.0.6" src="https://img.shields.io/badge/vers%C3%A3o-8.0.6-5865f2">
   <img alt="Release oficial estável" src="https://img.shields.io/badge/status-release%20est%C3%A1vel-238636">
   <img alt="Windows 10 e 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4">
-  <a href="DOWNLOADS.md"><img alt="Total de Downloads" src="https://img.shields.io/badge/downloads-4-blue"></a>
+  <a href="DOWNLOADS.md"><img alt="Total de Downloads" src="https://img.shields.io/badge/downloads-5-blue"></a>
   <a href="https://github.com/neurofiles1982-hub/NFiles-IA-Update/issues"><img alt="Issues abertas" src="https://img.shields.io/badge/Issues-abertas%20ao%20p%C3%BAblico-238636"></a>
 </p>
 
